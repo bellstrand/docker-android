@@ -1,5 +1,5 @@
 build:
-	docker build -t bellstrand/android .
+	docker build -t bellstrand/docker-android .
 
 run:
-	docker run -d --rm bellstrand/android
+	docker run -d --rm bellstrand/docker-android

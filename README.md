@@ -5,15 +5,15 @@
 ----
 ### Pull from Docker Hub
 ```
-docker pull bellstrand/android:$VERSION
+docker pull bellstrand/docker-android:$VERSION
 ```
 
 ### Run image
 ```
-docker run -it bellstrand/android:$VERSION bash
+docker run -it bellstrand/docker-android:$VERSION bash
 ```
 
 ### Use as base image
 ```Dockerfile
-FROM bellstrand/android:$VERSION
+FROM bellstrand/docker-android:$VERSION
 ```
